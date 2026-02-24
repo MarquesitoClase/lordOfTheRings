@@ -12,15 +12,15 @@ public class Main {
 
         List<Character> fellowship = new ArrayList<>();
 
-        Maiar gandalf = new Maiar("Gandalf", "Valinor", Role.MAGE, true);
-        Maiar sauron = new Maiar("Sauron", "Valinor", Role.DARK_LORD, false);
-        Maiar radagast = new Maiar("Radagast", "Valinor", Role.MAGE, true);
+        Maiar gandalf = new Maiar("Gandalf", "Valinor", Role.MAGE, "Fire and Light Magic", true);
+        Maiar sauron = new Maiar("Sauron", "Valinor", Role.DARK_LORD, "Dark Sorcery", false);
+        Maiar radagast = new Maiar("Radagast", "Valinor", Role.MAGE, "Nature Magic", true);
 
         Hobbit frodo = new Hobbit("Frodo", "Shire", Role.ROGUE, 70);
         Hobbit sam = new Hobbit("Sam", "Shire", Role.WARRIOR, 80);
         Hobbit pippin = new Hobbit("Pippin", "Shire", Role.ROGUE, 65);
 
-        Elf legolas = new Elf("Legolas", "Mirkwood", Role.ARCHER, 90);
+        Elf legolas = new Elf("Legolas", "Mirkwood", Role.ARCHER, 95);
         Elf tauriel = new Elf("Tauriel", "Mirkwood", Role.ARCHER, 85);
         Elf elrond = new Elf("Elrond", "Rivendell", Role.MAGE, 95);
 
