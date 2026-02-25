@@ -17,4 +17,9 @@ public class Orc extends Character{
     public void setStrength(int strength) {
         this.strength = strength;
     }
+
+    @Override
+    public String present() {
+        return "Soy un orco malvado llamado "+this.getName()+", y me encantan las minas!";
+    }
 }

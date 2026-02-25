@@ -17,4 +17,9 @@ public class Dwarf extends Character{
     public void setStrength(int strength){
         this.strength = strength;
     }
+
+    @Override
+    public String present() {
+        return "Soy un enano llamado "+getName()+", y me encanta trabajar en la mina.";
+    }
 }

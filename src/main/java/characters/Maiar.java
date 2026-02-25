@@ -8,4 +8,12 @@ public class Maiar extends Character{
         this.setRole(role);
         this.good = good;
     }
+
+    @Override
+    public String present() {
+        String alignment = good ? "orientado hacia la luz" : "orientado hacia la oscuridad";
+
+        return "Soy un Maiar de %s llamado %s, and my alignment is %s."
+                .formatted(this.getOrigin(), this.getName(), alignment);
+    }
 }

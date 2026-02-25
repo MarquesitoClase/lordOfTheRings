@@ -55,7 +55,7 @@ public class Main {
 
         System.out.println("Comunidad del Anillo:");
         for (Character c : fellowship) {
-            System.out.println(c.getName() + " (" + c.getOrigin() + ") - Rol: " + c.getRole());
+            System.out.println(c.present());
         }
     }
 }

@@ -18,4 +18,9 @@ public class Hobbit extends Character{
     private void setCourage(int courage) {
         this.courage = courage;
     }
+
+    @Override
+    public String present() {
+        return "Soy un Hobbit muy valiente, con "+this.courage+" de valor.";
+    }
 }

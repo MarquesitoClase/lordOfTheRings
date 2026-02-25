@@ -29,4 +29,6 @@ public abstract class Character {
     public void setRole(Role role) {
         this.role = role;
     }
+
+    public abstract String present();
 }

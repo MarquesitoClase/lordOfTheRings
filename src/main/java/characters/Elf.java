@@ -18,4 +18,9 @@ public class Elf extends Character {
     public void setAgility(int agility) {
         this.agility = agility;
     }
+
+    @Override
+    public String present() {
+        return "Soy un elfo de los bosques de "+this.getOrigin()+", llamado "+this.getName()+", y defiendo sus bosques frente a cualquier amenaza.";
+    }
 }

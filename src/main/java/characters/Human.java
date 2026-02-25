@@ -28,4 +28,10 @@ public class Human extends Character {
     public void setWisdom(int wisdom) {
         this.wisdom = wisdom;
     }
+
+    @Override
+    public String present() {
+        return "Soy un humano de las tierras de "+this.getOrigin()+", con una sabiduría de "
+                +this.wisdom+" y una fuerza de "+this.strength;
+    }
 }
