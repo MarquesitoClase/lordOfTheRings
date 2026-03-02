@@ -1,6 +1,7 @@
 package org.example;
 
 import characters.*;
+import characters.Character;
 
 import java.util.ArrayList;
 import java.util.List;
